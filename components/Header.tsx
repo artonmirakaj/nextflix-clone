@@ -1,3 +1,5 @@
+import { BellIcon, SearchIcon } from '@heroicons/react/solid'
+
 const Header = () => {
   return (
     <header>
@@ -19,7 +21,9 @@ const Header = () => {
       </div>
 
       <div>
-        
+        <SearchIcon className='hidden sm:inline h-6 w-6' />
+        <p className='hidden lg:inline'>Kids</p>
+        <BellIcon className='h-6 w-6' />
       </div>
     </header>
   )
